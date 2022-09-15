@@ -1,7 +1,27 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+  padding: auto;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  background-color: #D9D9D9;
+  flex: 1;
 }
-
+main {
+  flex: 1;
+}
+header {
+  background-color: #7D5260;
+  width: 100vw;
+  flex: 0;
+}
+footer {
+  background-color: #31111D;
+  width: 100vw;
+  margin-top: auto;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +56,4 @@
   100% {
     transform: translateY(0px);
   }
-}
+} */
